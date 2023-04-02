@@ -24,7 +24,8 @@
 - [License](#license)
 
 ## Introduction
-In this cybersecurity bootcamp project, I built and hosted a secure "cyber-blog" web application using Microsoft Azure. This project allowed me to gain hands-on experience in various aspects of cybersecurity, including {list the key aspects and technologies you've learned}. The project has been developed with security in mind, incorporating a range of security features to protect the web application from potential threats.
+In this cybersecurity bootcamp project, I built and hosted a secure "cyber-blog" web application using Microsoft Azure. This project allowed me to gain hands-on experience in various aspects of cybersecurity, including Keyvaults, App Services, Front Door, WAF}
+PHP, HTML, Docker, OpenSSL. The project has been developed with security in mind, incorporating a range of security features to protect the web application from potential threats.
 
 ## Technologies Used
 - Azure: {Keyvaults, App Services, Front Door, WAF}
