@@ -32,10 +32,16 @@ PHP, HTML, Docker, OpenSSL. The project has been developed with security in mind
 - PHP, HTML
 - Docker
 - OpenSSL
-- GoDaddy/Azure (mention which one you used for domain registration)
+- GoDaddy
 
 ## Problem and Solution
-(Here, describe the problem your project addresses and how your solution tackles that problem. Mention any challenges you faced during the development and how you overcame them.)
+The primary goal of this project was to set up and secure a web application using Microsoft Azure, ensuring that the web app is protected from potential threats and vulnerabilities. This project demonstrates the ability to apply cybersecurity best practices and use various tools and technologies to create a secure environment.
+
+One challenge faced during the development of the project was the initial usage of a self-signed SSL certificate. While this provided basic encryption for data transmitted between the client and server, it lacked the trust and validation offered by a Certificate Authority (CA). To address this issue, I replaced the self-signed certificate with a managed CA-approved certificate, which increased the overall security and trustworthiness of the web application.
+
+Another challenge encountered was the need to restrict traffic from certain countries as part of the security measures. To overcome this, I deployed Azure's Front Door and configured a Web Application Firewall (WAF) rule that effectively limited access to the web app based on the geographic location of incoming requests.
+
+Throughout the project, I gained hands-on experience with a variety of Azure services and other technologies, such as Docker and OpenSSL, and learned how to apply security best practices to protect a web application from potential threats. This project demonstrates my ability to adapt and learn new technologies quickly and effectively, as well as my commitment to ensuring the security and integrity of web applications.
 
 ## Project Components
 ### Azure Cloud Services
